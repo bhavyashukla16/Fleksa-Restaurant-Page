@@ -1,0 +1,895 @@
+.App {
+  width: 0;
+  height: 0;;
+}
+
+.navbar-logo{
+position: absolute;
+width: 94px;
+height: 45px;
+left: 27px;
+top: 12px;
+color: #000000;
+margin-right: 0;
+}
+
+.Menu {
+  position: absolute;
+  width: max-content;
+  height: 16px;
+  left: 948px;
+  top: 27px;
+  padding: 0 1rem;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 106% */
+
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.Reservation {
+  position: absolute;
+  width: max-content;
+  height: 16px;
+  left: 1081px;
+  top: 27px;
+  padding: 0 1rem;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 106% */
+
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.CallToAction {
+  position: absolute;
+  width: max-content;
+  height: 16px;
+  left: 1214px;
+  top: 27px;
+  padding: 0 1rem;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 106% */
+
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.Login {
+  position: absolute;
+  width: max-content;
+  height: 16px;
+  left: 1369px;
+  top: 26px;
+  padding: 0 1rem;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 106% */
+
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+.heading-image{
+  position: absolute;
+  width: 1536px;
+  height: 543px;
+  left: 0px;
+  top: 70px;
+  background: url("./Rectangle.jpg") ;
+  border-radius: 0px;
+}
+
+.heading{
+  height: 543px;
+  padding-left: 50px;
+  padding-top: 280px;
+  font-size: 3.5rem;
+}
+
+.Indian{
+  position: absolute;
+width: 138px;
+height: 19px;
+left: 47px;
+top: 690px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #717171;
+
+}
+
+.German{
+  position: absolute;
+width: 115px;
+height: 19px;
+left: 47px;
+top: 733px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #717171;
+
+}
+
+.Beverages{
+  position: absolute;
+  width: 84px;
+  height: 19px;
+  left: 47px;
+  top: 776px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  color: #717171;
+}
+
+.SearchBar{
+  position: absolute;
+    width: 233px;
+    height: 60px;
+    left: 346px;
+    top: 688px;
+    background: #F9F9F9;
+    
+    border-radius: 25px;
+}
+
+.Search-icon{
+  position: absolute;
+  left: 8px;
+  top: 20px;
+  width: 7%;
+}
+
+.search{
+  padding: 1rem 1rem 1rem 35px ;
+}
+
+/* Indian Dishes */
+
+.dish-title{
+position: absolute;
+width: 178px;
+height: 40px;
+left: 270px;
+top: 809px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 39px;
+/* identical to box height, or 140% */
+
+
+color: #202125;
+
+}
+
+.title-hr{
+  position: absolute;
+width: 559.89px;
+height: 1px;
+left: 271.48px;
+top: 869.8px;
+
+background: #000;
+border-radius: 10px;
+}
+
+
+#all-dishes-div{
+  position: absolute;
+  left:  311px;
+top: 898px; 
+width: max-content;
+}
+
+.dish{
+  float: bottom;
+width: max-content;
+}
+
+.dish-name{
+  
+width: 181px;
+height: 26px;
+margin: 0 4px 4px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 140% */
+
+
+color: #202125;
+}
+
+.dish-des{
+  
+width: 211px;
+height: max-content;
+/* left: 311px;
+top: 928px; */
+margin: 4px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 151% */
+
+letter-spacing: 0.15px;
+
+color: #717171;
+}
+
+.display-count{
+  position: relative;
+  bottom: 98px;
+  left: 370px;
+  width: 67px;
+  height: 26px;
+  border-radius: 33px;
+  background: #2D3642;
+}
+
+.count{
+  color: #fff;
+  height: 26px;
+  padding:  3px 29px;
+}
+
+.add-icon{
+  position: relative;
+  bottom: 75px;
+  left: 450px;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  /*margin-left: 480px;
+  margin-top: 10px;*/
+}
+
+.dish-price{
+
+width: max-content;
+height: 23px;
+/* left: 312px;
+top: 957px; */
+margin: 4px 4px 4px 0;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 140% */
+
+
+color: #2D3642;
+
+}
+
+.price-tag{
+width: 286px;
+height: 24px;
+/*left: 311px;
+top: 954px; */
+margin: 4px;
+background: #fff;
+border-radius: 0px;
+}
+
+.dish-tag{
+  color: #fff;
+  height: 14px;
+  width: 50px;
+  margin: 0;
+  font-size: 0.7rem;
+  
+}
+
+.tag-div{
+  position: relative;
+  left:65px;
+  bottom: 26px;
+  width: 75px;
+  height: 18px;
+  padding: 0.8px 12px;
+  background: #2D3642;
+  /*left: 377px;
+  top: 957px;*/
+  border-radius: 2px;
+}
+
+.bottom-hr{
+width: 500px;
+height: 1px;
+/*left: 271.48px;
+top: 1018.8px;*/
+margin-top: 41px;
+margin-bottom: 20px;
+
+background: #E4E4E4;
+border-radius: 10px;
+}
+
+#venue{
+  position: absolute;
+width: 172px;
+height: 28px;
+left: 902px;
+top: 681px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+color: #2D3642;
+}
+
+#Address{
+  position: absolute;
+width: 71px;
+height: 26px;
+left: 902px;
+top: 741px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 140% */
+
+
+color: #2D3642;
+}
+
+.arrow-box{
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 1253px;
+  top: 734px;
+  
+  background: #EBEBEB;
+}
+
+#arrow-logo{
+position: absolute;
+    width: 1.1rem;
+    left: 23.67%;
+    top: 33.12%;
+}
+
+#Street-name{
+  position: absolute;
+  width: 121px;
+  height: 20px;
+  left: 902px;
+  top: 774px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 140% */
+  
+  
+  color: #202125;
+}
+
+#pincode{
+  position: absolute;
+width: 41px;
+height: 20px;
+left: 902px;
+top: 797px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 140% */
+
+
+color: #717171;
+
+}
+
+#city{
+  position: absolute;
+width: 37px;
+height: 20px;
+left: 947px;
+top: 797px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 140% */
+
+
+color: #717171;
+}
+
+#map{
+  position: absolute;
+width: 56px;
+height: 20px;
+left: 902px;
+top: 832px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 140% */
+
+
+color: #2D3642;
+
+}
+
+.cart{
+  position: absolute;
+width: 554px;
+height: 602px;
+left: 902px;
+top: 905px;
+
+background: #FFFFFF;
+border: 1px solid #2D3642;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cart-logo{
+  width: 27px;
+  height: 36px;
+  position: absolute;
+  top: 54px;
+  left: 230.67px;
+}
+
+.cart-title{
+  position: absolute;
+width: 58px;
+height: 35px;
+left: 270px;
+top: 55px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+}
+
+#all-cart-dishes{
+  position: absolute;
+  width: 420px;
+  height: max-content;
+  top:157px;
+  left: 71px;
+}
+
+.cart-dish{
+  float: bottom;
+  width: 420px;
+}
+
+.cart-dish-name{
+  width: max-content;
+  height: 26px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+
+color: #2D3642;
+}
+
+.cart-dish-price{
+  position: relative;
+  height: max-content;
+  bottom: 40px;
+  float: right;
+  width: max-content;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 140% */
+
+
+color: #2D3642;
+}
+
+.total-cost-div{
+  position: absolute;
+width: 269px;
+height: 95px;
+left: 1px;
+top: 505px;
+
+background: #FFFFFF;
+box-shadow: -1px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+#cost{
+  position: absolute;
+width: 66px;
+height: 23px;
+left: 102px;
+top: 36px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 22px;
+}
+
+.proceed-button{
+position: absolute;
+width: 283px;
+height: 95px;
+left: 270px;
+top: 505px;
+
+background: #2D3642;
+box-shadow: -1px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+#proceed-text{
+  position: absolute;
+width: 90px;
+height: 23px;
+left: 97px;
+top: 36px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 22px;
+color: #fff;
+}
+
+.footer{
+  position: absolute;
+width: 1536px;
+height: 508px;
+left: 0px;
+top: 1957px;
+
+background: #F8F8F8;
+box-shadow: -1px 0px 20px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+}
+
+.footer-logo{
+  position: absolute;
+    width: 85px;
+    height: 41px;
+    left: 192px;
+    top: 106px;
+}
+
+.download-app{
+  position: absolute;
+  width: 139px;
+  height: 23px;
+  left: 192px;
+  top: 162px;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #202125;
+}
+ 
+ .apple-button {
+position: absolute;
+height: 50.68px;
+width: 157.67px;
+left: 193px;
+top: 216px;
+ }
+
+.apple-logo{
+    position: absolute;
+    left: 8px;
+    width: 20%;
+   text-align: center;
+   font-size: 28px;
+   margin-right: 7px;
+   }
+ 
+ .google-play-logo{
+  width: 2rem;
+  margin-right: 7px;
+  position: absolute;
+width: 160px;
+height: 47px;
+left: 192px;
+top: 284px;
+
+background: url(.png);
+border-radius: 0px;
+ }
+ 
+
+.copyright{
+  position: absolute;
+width: 134px;
+height: 23px;
+left: 192px;
+top: 414px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height, or 148% */
+
+
+color: #717171;
+
+}
+
+.footer-list1{
+  position: absolute;
+width: 0;
+height: 0;
+left: 576px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+
+/* identical to box height, or 139% */
+
+color: #202125;
+}
+
+.footer-list-title{
+  position: absolute;
+  width: 160px;
+  top: 162px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#item1-1{
+  position: absolute;
+  width: 160px;
+  top: 217px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item1-2{
+  position: absolute;
+  width: 160px;
+  top: 238px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item1-3{
+  position: absolute;
+  width: 160px;
+  top: 260px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item1-4{
+  position: absolute;
+  width: 160px;
+  top: 281px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item1-5{
+  position: absolute;
+  width: 160px;
+  top: 303px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+.footer-list2{
+  position: absolute;
+width: 0;
+height: 0;
+left: 961px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+
+/* identical to box height, or 139% */
+
+color: #202125;
+}
+
+#item2-1{
+  position: absolute;
+  width: 160px;
+  top: 217px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item2-2{
+  position: absolute;
+  width: 160px;
+  top: 238px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item2-3{
+  position: absolute;
+  width: 160px;
+  top: 260px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item2-4{
+  position: absolute;
+  width: 160px;
+  top: 281px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item2-5{
+  position: absolute;
+  width: 160px;
+  top: 303px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item2-6{
+  position: absolute;
+  width: 160px;
+  top: 325px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#item2-7{
+  position: absolute;
+  width: 160px;
+  top: 346px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+.footer-end{
+  position: absolute;
+width: 0;
+height: 20px;
+top: 416px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height, or 149% */
+
+
+color: #202125;
+}
+
+#footer-end-p1{
+  position: absolute;
+  width: 141px;
+  left: 576px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+#footer-end-p2{
+  position: absolute;
+  width: 141px;
+  left: 740px;
+  font-size: 13px;
+line-height: 19px;
+}
+
+.icon-box{
+  position: absolute;
+top: -10px;
+border: 1px solid rgba(32, 33, 37, 0.18);
+box-sizing: border-box;
+}
+
+.icons{
+  width: 0;
+}
+
+.icon{
+width: 38px;
+padding: 9px;
+}
+
+.fb{
+  position: absolute;
+  left: 961px;
+}
+
+.insta{
+  position: absolute;
+  left: 1022px;
+}
+
+.linkedin{
+  position: absolute;
+  left: 1085px;
+}
+
+.twitter{
+  position: absolute;
+  left: 1148px;
+}
