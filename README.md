@@ -1,6 +1,10 @@
 # Fleksa-Restaurant-Page
+You can click on the link below-
+https://whispering-plateau-86559.herokuapp.com/
 
-To run the web App on your system, follow these steps:-
+OR
+
+Run the web App on your system, as follows:-
 
 1. Download the code zip file.
 2. Extract all the files in your system.
