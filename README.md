@@ -1,5 +1,5 @@
 # Fleksa-Restaurant-Page
-You can click on the link below-
+You can click on the link-
 https://whispering-plateau-86559.herokuapp.com/
 
 OR
